@@ -25,6 +25,9 @@ Nothing to install.
 1. run `docker logs --follow zipkin` to watch the logs
 1. send your tracing calls to `localhost:9411`
 
+## Accessing The UI
+Point your web browser to `http://localhost:9411` and you should see the UI.
+
 # Troubleshooting
 
 # License and Credits
