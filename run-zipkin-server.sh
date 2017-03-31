@@ -12,3 +12,9 @@ docker run --detach \
            --env ES_AWS_DOMAIN=${ES_DOMAIN} \
            --volume ${HOME}/.aws:/root/.aws:ro \
            openzipkin/zipkin
+
+# optional: tail the logs
+docker logs --follow zipkin
+
+# optional: open the zipkin UI in the default web browser
+xdg-open http://localhost:9411
